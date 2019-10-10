@@ -1,0 +1,93 @@
+body {
+	font-family: sans-serif;
+}
+
+.bold {
+	font-weight: bold;
+}
+.hidden {
+	display: none;
+}
+
+.content {
+	max-width: 1100px;
+	width: 100%;
+	margin: 0 auto;
+}
+.content > div {
+	padding: 0 10px;
+}
+
+.content__info {
+	margin: 15px 0 20px 0;
+	display: grid;
+	grid-template-columns: 30% 70%;
+}
+.info__img img {
+	width: 100%; 
+}
+.info__data {
+	padding-left: 20px;
+}
+.info__data .data__name {
+	font-size: 30px;
+	font-weight: bold;
+}
+.info__data > div {
+	margin-top: 15px;
+}
+.content__table .table__title {
+	font-weight: bold;
+	font-size: 20px;
+	padding-bottom: 15px; 
+}
+.content__table .table__lang {
+	width: 100%;
+}
+.content__table .table__lang td {
+	border: 1px solid;
+	height: 25px;
+	text-transform: uppercase;
+	padding: 10px 10px; 
+}
+.content__table .table__lang th {
+	font-weight: bold;
+	text-transform: uppercase;
+	border: 1px solid;
+	padding: 10px 0;
+}
+.content__input {
+	margin-top: 15px;
+	display: flex;
+}
+.content__input .input__title {
+	padding-bottom: 5px;
+}
+.content__input .input__cont {
+	flex-basis: 50%;
+	padding: 0 20px;
+}
+.content__input .input__cont input {
+	width: 100%;
+}
+
+.content__more .more__button {
+	display: flex;
+	margin: 15px auto; 
+	border: 0;
+	background: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+.content__more .more__content {
+	max-width: 600px;
+	margin: 0 auto;
+	line-height: 20px;
+	padding: 10px 10px 0;	
+	border: 1px solid #333;
+	margin-bottom: 50px;
+}
+.content__more .more__content p {
+	padding-bottom: 10px;
+}
